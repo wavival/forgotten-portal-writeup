@@ -34,7 +34,7 @@ forgotten-portal-writeup/
 Step-by-step walkthrough with screenshots: [notes/writeup.md](notes/writeup.md)
 
 Full narrative on the Lúmina W blog.
-[Read here.](https://blog.luminaw.co/blog/forgotten-portal-pentest-dockerlabs)
+[Read here.](https://blog.luminaw.co/forgotten-portal-pentesting-dockerlabs)
 
 ## Methodology.
 
