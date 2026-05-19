@@ -61,6 +61,10 @@ Used tools: `Linux` `Bash` `Markdown` `Screenshots`
 
 ![Banner Evidence](assets/banner-evidence.png)
 
+## License
+
+Released under the MIT License. Free to use, modify, and redistribute with attribution. Full terms in [LICENSE](LICENSE).
+
 ## Contact
 
 ![Banner footer](assets/banner-footer.png)
