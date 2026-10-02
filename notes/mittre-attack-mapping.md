@@ -6,7 +6,7 @@
 | Reconocimiento | T1595.002 | Vulnerability Scanning | Enumeración de servicios con nmap -sV |
 | Descubrimiento | T1083 | File and Directory Discovery | Enumeración con gobuster y ls |
 | Descubrimiento | T1087.001 | Account Discovery: Local Account | Lectura de /etc/passwd y /home |
-| Descubrimiento | T1082 | System Information Discovery | whoami e id para identificar usuario |
+| Descubrimiento | T1033 | System Owner/User Discovery | whoami e id para identificar usuario |
 | Acceso inicial | T1190 | Exploit Public-Facing Application | Explotación del formulario de subida .php |
 | Ejecución | T1059.004 | Unix Shell | Comandos via web shell y reverse shell |
 | Persistencia | T1505.003 | Web Shell | Carga de shell.php en el servidor |
