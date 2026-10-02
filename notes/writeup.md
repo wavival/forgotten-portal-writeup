@@ -243,6 +243,8 @@ Comentario HTML → ruta oculta
 | Credenciales en texto casi plano en logs | CWE-312 | bcrypt/Argon2, nunca logs con credenciales |
 | Clave SSH compartida entre usuarios | CWE-321 | Clave única por usuario |
 | Sudo misconfiguration en binario tar | CWE-269 | Principio de mínimo privilegio |
+| Directory listing habilitado en `/uploads` | CWE-548 | `Options -Indexes` en Apache, denegar acceso HTTP al directorio |
+| Passphrase de la clave SSH en texto plano en un reporte interno | CWE-312 | Eliminar el archivo, gestor de secretos |
 
 ---
 

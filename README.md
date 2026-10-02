@@ -17,7 +17,7 @@ End-to-end penetration test of a vulnerable Docker-based machine. Full kill chai
 1. Sensitive data exposed in HTML source code → revealed hidden upload page
 2. File upload form accepting `.php` → Remote Code Execution via web shell
 3. Credentials stored in Base64 inside access log → lateral movement to `alice`
-4. Shared RSA key across all system users → lateral movement to `bob`
+4. Shared RSA key across all system users, plus its passphrase written in plain text in an internal incident report → lateral movement to `bob`
 5. Misconfigured sudo permissions on `tar` → privilege escalation to `root`
 
 [Writeup](https://blog.luminaw.co/forgotten-portal-pentesting-dockerlabs/) • [Laboratory](https://dockerlabs.es)
@@ -30,7 +30,7 @@ Used tools: `NMAP` `Gobuster` `Netcat` `Python` `Base64` `GTFOBins` `MITRE ATT&C
 
 Two deliverables aligned to different audiences: a technical report documenting every step, payload, and finding for security teams, plus an executive report translating impact and remediation priorities for non-technical stakeholders.
 
-Methodology follows PTES (Penetration Testing Execution Standard) with findings mapped to the MITRE ATT&CK framework.
+Methodology follows PTES (Penetration Testing Execution Standard) with findings mapped to the MITRE ATT&CK framework. The technical report lists seven findings (three Critical, two High, two Medium); the [writeup](notes/writeup.md) lists the same seven with their CWE classification.
 
 [Technical Report](reports/technical-report.pdf) • [Executive Report](reports/executive-report.pdf) • [MITRE ATT&CK Mapping](notes/mittre-attack-mapping.md)
 
@@ -51,8 +51,8 @@ forgotten-portal-writeup/
 │   ├── writeup.md                  # Step-by-step technical walkthrough with images.
 │   └── mittre-attack-mapping.md    # Full MITRE ATT&CK TTP mapping.
 └── reports/
-    ├── technical-report.pdf        # Full technical report (Spanish).
-    └── executive-report.pdf        # Executive summary for non-technical stakeholders.
+    ├── technical-report.pdf        # Full technical report (English).
+    └── executive-report.pdf        # Executive summary for non-technical stakeholders (English).
 ```
 
 [Evidence folder](evidence/) • [Step-by-step writeup](notes/writeup.md)
