@@ -47,6 +47,8 @@ Repository structure:
 ```
 forgotten-portal-writeup/
 ├── evidence/                       # 28 annotated screenshots, full attack chain.
+├── docs/
+│   └── ROADMAP.md                  # Pending work on the reports and notes.
 ├── notes/
 │   ├── writeup.md                  # Step-by-step technical walkthrough with images.
 │   └── mittre-attack-mapping.md    # Full MITRE ATT&CK TTP mapping.
