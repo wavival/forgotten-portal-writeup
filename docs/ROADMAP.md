@@ -1,6 +1,6 @@
 # Forgotten Portal Roadmap
 
-> Last updated: 2026-10-02
+> Last updated: 2026-10-04
 
 What is pending in the reports and notes. The writeup and the notes already agree on seven findings (see `notes/writeup.md`).
 
@@ -21,10 +21,10 @@ These need the author's judgement on the technique, so they are not changed yet.
 
 - [ ] Technical report: T1548.003 is named "Sudo Enumeration" under Discovery. T1548.003 is "Sudo and Sudo Caching" (privilege escalation).
 - [ ] Netcat reverse shell over TCP 443 is mapped to T1071.001 (Web Protocols). Raw TCP fits T1095 (Non-Application Layer Protocol) better; the payload transfer over HTTP fits T1105 (Ingress Tool Transfer).
-- [ ] `notes/mittre-attack-mapping.md` and the report table do not list the same techniques. Make one the source and generate the other.
+- [ ] `notes/mitre-attack-mapping.md` and the report table do not list the same techniques. Make one the source and generate the other.
 
 ## Repository
 
-- [ ] Rename `notes/mittre-attack-mapping.md` to `notes/mitre-attack-mapping.md` (typo). Update the README link in the same change, and check the blog post that links to it.
+- [x] Renamed `notes/mittre-attack-mapping.md` to `notes/mitre-attack-mapping.md` and updated the README link. The blog post could not be checked from this environment.
 - [ ] Add the report sources (and a build step) so the PDFs can be regenerated.
 - [ ] Add a CHANGELOG once the reports change.
