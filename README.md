@@ -10,6 +10,21 @@
 
 > Full penetration testing documentation for the **Forgotten_Portal** machine from [DockerLabs](https://dockerlabs.es), developed as part of the cybersecurity accelerator at Nodo EAFIT (2026).
 
+## Table of Contents
+
+- [Overview](#overview)
+- [Attack Chain](#attack-chain--forgotten-portal)
+- [Reports](#reports--technical--executive)
+- [Evidence](#evidence--full-capture-walkthrough)
+- [License](#license)
+- [Contact](#contact)
+
+## Overview
+
+Forgotten_Portal is a DockerLabs Linux machine that demonstrates an end-to-end compromise through exposed information, unrestricted file upload, credential exposure, shared SSH keys, and an insecure sudo configuration. The assessment documents reconnaissance, exploitation, lateral movement, and privilege escalation to `root`.
+
+For the expanded walkthrough, including commands, screenshots, findings, and remediation context, read the published [Forgotten Portal penetration-testing writeup](https://blog.luminaw.co/forgotten-portal-pentesting-dockerlabs/).
+
 ## Attack Chain • Forgotten Portal
 
 End-to-end penetration test of a vulnerable Docker-based machine. Full kill chain from zero to root: reconnaissance, enumeration, vulnerability exploitation, and privilege escalation, achieving full system compromise without credentials or advanced exploits.
@@ -32,7 +47,7 @@ Two deliverables aligned to different audiences: a technical report documenting 
 
 Methodology follows PTES (Penetration Testing Execution Standard) with findings mapped to the MITRE ATT&CK framework. The technical report lists seven findings (three Critical, two High, two Medium); the [writeup](notes/writeup.md) lists the same seven with their CWE classification.
 
-[Technical Report](reports/technical-report.pdf) • [Executive Report](reports/executive-report.pdf) • [MITRE ATT&CK Mapping](notes/mittre-attack-mapping.md)
+[Technical Report](reports/technical-report.pdf) • [Executive Report](reports/executive-report.pdf) • [MITRE ATT&CK Mapping](notes/mitre-attack-mapping.md)
 
 Used tools: `PTES` `MITRE ATT&CK` `Markdown` `PDF`
 
@@ -51,7 +66,7 @@ forgotten-portal-writeup/
 │   └── ROADMAP.md                  # Pending work on the reports and notes.
 ├── notes/
 │   ├── writeup.md                  # Step-by-step technical walkthrough with images.
-│   └── mittre-attack-mapping.md    # Full MITRE ATT&CK TTP mapping.
+│   └── mitre-attack-mapping.md     # Full MITRE ATT&CK TTP mapping.
 └── reports/
     ├── technical-report.pdf        # Full technical report (English).
     └── executive-report.pdf        # Executive summary for non-technical stakeholders (English).
@@ -67,17 +82,20 @@ Used tools: `Linux` `Bash` `Markdown` `Screenshots`
 
 Released under the MIT License. Free to use, modify, and redistribute with attribution. Full terms in [LICENSE](LICENSE).
 
+See [CONTRIBUTING.md](CONTRIBUTING.md) for contribution guidelines.
+
 ## Contact
 
-![Banner footer](assets/banner-footer.png)
+<img src="assets/logo-w.png" width="48px" alt="wavival.dev">
 
-<h3 align="left">
-  <img src="assets/logo-w.png" width="48px" valign="middle">
-  Valentina Ramírez • @wavival
-</h3>
+> One click away
 
-> Thanks for getting here. Let's build great things.
+### Your next idea deserves code that can sustain it.
 
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-wavival-407bff?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/wavival)
-[![Instagram](https://img.shields.io/badge/Instagram-@wavival-407bff?style=for-the-badge&logo=instagram&logoColor=white)](https://www.instagram.com/wavival)
-[![Email](https://img.shields.io/badge/Email-wavival.dev@luminaw.co-407bff?style=for-the-badge&logo=gmail&logoColor=white)](mailto:wavival.dev@luminaw.co)
+I design and build complete products, from the backend to interfaces your users love. With AI integration and security by design.
+
+Projects start at COP 2,000,000 / USD 500 depending on scope (MVPs from 3 to 6 weeks). Limited availability, replies within 24 hours.
+
+[Build my product](https://www.wavival.dev/contacto) • [View services](https://www.wavival.dev/servicios)
+
+Full Stack Developer. Security integrated. AI applied. Products that scale.
