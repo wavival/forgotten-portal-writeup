@@ -86,16 +86,10 @@ See [CONTRIBUTING.md](CONTRIBUTING.md) for contribution guidelines.
 
 ## Contact
 
-<img src="assets/logo-w.png" width="48px" alt="wavival.dev">
+<img src="assets/logo-w.png" alt="Wavival logo" width="48" align="middle"> **Valentina Ramírez · @wavival**
 
-> One click away
+> Thanks for getting here. Let's build great things.
 
-### Your next idea deserves code that can sustain it.
-
-I design and build complete products, from the backend to interfaces your users love. With AI integration and security by design.
-
-Projects start at COP 2,000,000 / USD 500 depending on scope (MVPs from 3 to 6 weeks). Limited availability, replies within 24 hours.
-
-[Build my product](https://www.wavival.dev/contacto) • [View services](https://www.wavival.dev/servicios)
-
-Full Stack Developer. Security integrated. AI applied. Products that scale.
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-wavival-407bff?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/wavival)
+[![Instagram](https://img.shields.io/badge/Instagram-@wavival-407bff?style=for-the-badge&logo=instagram&logoColor=white)](https://www.instagram.com/wavival)
+[![Email](https://img.shields.io/badge/Email-wavival.dev@luminaw.co-407bff?style=for-the-badge&logo=gmail&logoColor=white)](mailto:wavival.dev@luminaw.co)
